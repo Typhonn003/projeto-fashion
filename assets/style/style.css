@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.principal {
+    max-width: 1024px;
+    margin: 50px auto 0 auto;
+}
+
+.header-top {
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+
+.header-top:hover {
+    background-color: #19232c;
+}
+
+.logotipo {
+    margin: 10px 0 0 60px;
+}
+
+.header-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 14px 25px 0 0;
+}
+
+.header-nav a {
+    color: #49667e;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-nav a:hover {
+    color: #5e83a2;
+}
+
+.portfolio {
+    margin-top: 50px;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.portfolio h1 {
+    color: #162028;
+    font-size: 2.5em;
+}
+
+.portfolio p {
+    color: #555555;
+    font-size: 1em;
+    line-height: 2;
+}
+
+.gallery {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gallery-card {
+    text-align: center;
+}
+
+.gallery-tittle {
+    color: #162028;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gallery-text {
+    color: #555555;
+}
+
+.about {
+    color: white;
+    margin-top: 50px;
+    padding: 100px;
+    background: url(../img/bg_detalhe.png), #003d52;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 2;
+    width: 80%;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact address {
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-style: normal;
+    text-align: center;
+}
+
+.map {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: #0b171f;
+    color: #49667e;
+    height: 50px;
+    margin: 50px 0 20px 0;
+    text-align: center;
+    padding: 1px;
+}
